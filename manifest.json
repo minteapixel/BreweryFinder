@@ -1,0 +1,17 @@
+{
+  "name": "BreweryFinder",
+  "description" : "Traveling across the US and in need of a beer? Looking for a new place for tasty local cider? Use Brewery Finder to check out breweries near you!",
+  "version": "1.0",
+  "author": "Minteapixel",
+  "manifest_version": 2,
+  "background": {
+    "scripts": ["scripts.js"],
+    "persistent": false
+  },
+  "chrome_url_overrides" : {
+    "newtab": "hello.html"
+  },
+  "permissions": [
+    "https://api.openbrewerydb.org/breweries/*"
+  ]
+}

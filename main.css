@@ -1,0 +1,11 @@
+.hidden {
+  display: none !important;
+}
+
+#searchResultsBox {
+  margin-top: 2rem;
+}
+
+.searchResults__subtitle {
+  color: 000;
+}
